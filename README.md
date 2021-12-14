@@ -34,9 +34,9 @@ Obrigada a todos que contribuiram para o desenvolvimento desse projeto, é uma g
 
 <table>
   <tr>
-	<td align="center"><a href="https://www.linkedin.com/in/camillacleane/"><img style="border-radius: 50%;" src="https://imgur.com/iRWc2Af.jpg" width="100px;" alt="Camis"/><br /><sub><b>Camilla Cleane (Camis)</b></sub></a><br /><a href="https://github.com/camillacleanne" title="Instrutora de Backend Generation Brasil">👨‍🚀</a></td> 
-	  <td align="center"><a href="https://www.linkedin.com/in/gabrielcs02/"><img style="border-radius: 50%;" src="https://imgur.com/vaaabgQ.jpg" width="100px;" alt="Costa"/><br /><sub><b>Gabriel Costa (Costa)</b></sub></a><br /><a href="https://github.com/GabrielCS02" title="Aluno Generation Brasil">👨‍🎓🚀</a></td> 
-	   <td align="center"><a href="https://www.linkedin.com/in/gabriel-sousa-m-grande/"><img style="border-radius: 50%;" src="https://imgur.com/wvkGvjk.jpg" width="100px;" alt="Gabriel"/><br /><sub><b>Gabriel Sousa (Gabriel)</b></sub></a><br /><a href="https://github.com/sousagabriell" title="Instrutor Generation Brasil">👨‍🏫</a></td> 
+	<td align="center"><a href="https://www.linkedin.com/in/camillacleane/"><img style="border-radius: 60%;" src="https://imgur.com/iRWc2Af.jpg" width="150px;" alt="Camis"/><br /><sub><b>Camilla Cleane (Camis)</b></sub></a><br /><a href="https://github.com/camillacleanne" title="Instrutora de Backend Generation Brasil">👨‍🚀</a></td> 
+	  <td align="center"><a href="https://www.linkedin.com/in/gabrielcs02/"><img style="border-radius: 60%;" src="https://imgur.com/vaaabgQ.jpg" width="150px;" alt="Costa"/><br /><sub><b>Gabriel Costa (Costa)</b></sub></a><br /><a href="https://github.com/GabrielCS02" title="Aluno Generation Brasil">👨‍🎓🚀</a></td> 
+	   <td align="center"><a href="https://www.linkedin.com/in/gabriel-sousa-m-grande/"><img style="border-radius: 60%;" src="https://imgur.com/wvkGvjk.jpg" width="150px;" alt="Gabriel"/><br /><sub><b>Gabriel Sousa (Gabriel)</b></sub></a><br /><a href="https://github.com/sousagabriell" title="Instrutor Generation Brasil">👨‍🏫</a></td> 
 	  
 </tr>
 </table>
@@ -52,3 +52,4 @@ Obrigada a todos que contribuiram para o desenvolvimento desse projeto, é uma g
 [![Linkedin Badge](https://img.shields.io/badge/-Yasmim-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/yasmim-marques-santos/)](https://www.linkedin.com/in/yasmim-marques-santos/) 
 [![Gmail Badge](https://img.shields.io/badge/-mianjysnow@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mianjysnow@gmail.com)](mailto:mianjysnow@gmail.com)
 
+## ✨ Obrigada por ter visualizado meu projeto, espero que você tenha gostado, estou aberta a feedbacks e sugestões! ✨
