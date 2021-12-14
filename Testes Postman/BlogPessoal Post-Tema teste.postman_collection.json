@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "382324d8-64af-4d10-b273-944f1395c20e",
+		"name": "BlogPessoal Post/Tema teste",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Populando tema",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic Y29zdGluaGFzaWx2YUBnbWFpbC5jb206MTIzNDU=",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic eW1zQGdtYWlsLmNvbToxMjM0NTY=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"descricao\": \"Rotina\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tema",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tema"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Populando Postagens",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic eW1zQGdtYWlsLmNvbToxMjM0NTY=",
+						"description": "Yasmim",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Y29zdGluaGFzaWx2YUBnbWFpbC5jb206MTIzNDU=",
+						"description": "Costa",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"XI!!! Caiu na rotina...\",\r\n    \"texto\": \"Pra algumas pessoas pode ser bom a rotina, ter o controle sobre seu dia a dia, mas pra outras é algo pessimo, saber que seu trabalho/relacionamento caiu na rotina pra essas pessoas é desesperador, o melhor é sempre manter o equilibrio, ser demais de ambas as coisas pode te trazer problemas pro futuro.\",\r\n    \"tema\":{ \r\n        \"id\": 3\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/postagens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"postagens"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vendo Post/tema",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic Y29zdGluaGFzaWx2YUBnbWFpbC5jb206MTIzNDU=",
+						"description": "costa",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/postagens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"postagens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletando erro",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic eW1zQGdtYWlsLmNvbToxMjM0NTY=",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/postagens/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"postagens",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizando dados",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic eW1zQGdtYWlsLmNvbToxMjM0NTY=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"titulo\": \"XI!!! A rotina chegou...\",\r\n    \"texto\": \"Pra algumas pessoas pode ser bom a rotina, ter o controle sobre seu dia a dia, mas pra outras é algo pessimo, saber que seu trabalho/relacionamento caiu na rotina pra essas pessoas é desesperador, o melhor é sempre manter o equilibrio, ser demais de ambas as coisas pode te trazer problemas pro futuro.\",\r\n    \"tema\":{ \r\n        \"id\": 3\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/postagens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"postagens"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

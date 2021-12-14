@@ -20,10 +20,12 @@ public class Tema {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
+	
 	@NotBlank (message = "o atributo descrição não pode estar vazio")
 	private String descricao;
-	@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL)
-	@JsonIgnoreProperties("Tema")
+	
+	@OneToMany(mappedBy = "tema", cascade = CascadeType.REMOVE)
+	@JsonIgnoreProperties("tema")
 	private List<Postagem> postagem;
 	
 	public long getId() {

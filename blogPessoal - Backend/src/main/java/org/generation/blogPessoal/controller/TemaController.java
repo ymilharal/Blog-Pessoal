@@ -18,9 +18,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/tema")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class TemaController {
+	
 	@Autowired
 	private TemaRepository repository;
 	
@@ -48,8 +49,14 @@ public class TemaController {
 		return ResponseEntity.ok(repository.save(tema));
 	}
 	@DeleteMapping("/{id}")
-	public void delete(@PathVariable long id) {
-		repository.deleteById(id);
-	}
+    public ResponseEntity<?> deletePostagem(@PathVariable long id) {
+
+        return repository.findById(id)
+            .map(resposta -> {
+                repository.deleteById(id);
+                return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+            })
+            .orElse(ResponseEntity.notFound().build());
+    }
 
 }
