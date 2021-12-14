@@ -26,7 +26,7 @@ Eu estou idealizando um "cantinho café" que basicamente é um "lugar" onde o us
 * [Spring Boot](https://spring.io/)
 * [MySQL](https://www.mysql.com/)
 
-   ## 👩‍💻 Auxiliares
+## 👩‍💻 Auxiliares
 
 <br />
 Obrigada a todos que contribuiram para o desenvolvimento desse projeto, é uma grande realização para mim, depois te tantos erros e tanta persistencia ❤️ </p>
