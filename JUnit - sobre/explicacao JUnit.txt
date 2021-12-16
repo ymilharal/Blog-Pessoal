@@ -1,0 +1,28 @@
+JUnit
+
+Um pouco do que eu entendi sobre JUnit para ajudar: 
+
+o teste é para avaliar a qualidade da aplicação afim de reduzir riscos no codigo, também é para validação, ver se o sistema vai atender as necessidades do usuario
+
+piramide de testes é uma representação grafica, a piramide indica a quantidade de testes a ser feita.
+teste unidade - testar pequenas unidades, o mais comum
+teste de integração - modulos combiandos e testados em conjunto, mais complexo
+teste end to end - uma metodologia para testar a aplicação do inicio ao fim, simular um cenario real, menos realizado.
+Testar sempre as partes mais complexas ou criticas do seu codigo
+
+@SpringBootTest cria e inicializa os testes, a opção webEnvironmente garante q não será utilizado a porta padrão 8080.
+
+O Junit é um framework de testes.
+@Test - indica que deve ser usado como teste
+@BeforeEach - Indica que deve ser executado antes de cada metodo da classe 
+@BeforeAll - indica que o metodo pode ser executado uma unica vez antes de todos os metodos da classe
+@AfterEach - Indica que o metodo deve ser executado depois de cada teste
+@AfterAll - indica que o metodo deve ser executado uma unica vez depois dos testes da classe
+@Disabled - desabilita temporariamente a execução de um teste
+@DisplayName - personaliza o nome do teste permitindo inserir um emoji
+@Order(1) - informa a ordem que os testes serão executados
+@TestInstance - permite modificar o ciclo de vida da classe testes que são 2 - lifeCycle.Per_Method ciclo padrão onde para cada metodo teste é criada uma nova instancia. LifeCycle.PER_CLASS uma unica instancia da classe teste é criada e reutilizada
+
+o H2 é um Banco de dados relacional seu armazenamento é volatil, banco de dados para testes.
+
+
