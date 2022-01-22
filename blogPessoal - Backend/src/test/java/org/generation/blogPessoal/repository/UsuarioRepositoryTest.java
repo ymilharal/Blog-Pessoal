@@ -23,13 +23,13 @@ public class UsuarioRepositoryTest {
 	@BeforeAll
 	void start(){
 
-		usuarioRep.save(new Usuario(0L, "Yasmim Marques", "ysa@gmail.com", "12345", "url"));
+		usuarioRep.save(new Usuario(0L, "Yasmim Marques", "ysa@gmail.com", "12345", "url", "normal"));
 		
-		usuarioRep.save(new Usuario(0L, "Gabriel Marques", "gab@gmail.com", "12345678", "url"));
+		usuarioRep.save(new Usuario(0L, "Gabriel Marques", "gab@gmail.com", "12345678", "url", "normal"));
 		
-		usuarioRep.save(new Usuario(0L, "Jaqueline Feitosa", "jaque@gmail.com", "123456", "url"));
+		usuarioRep.save(new Usuario(0L, "Jaqueline Feitosa", "jaque@gmail.com", "123456", "url", "normal"));
 
-        usuarioRep.save(new Usuario(0L, "Ayla Marques", "aylinda@gmail.com", "1234567", "url"));
+        usuarioRep.save(new Usuario(0L, "Ayla Marques", "aylinda@gmail.com", "1234567", "url", "normal"));
 
 	}
 
